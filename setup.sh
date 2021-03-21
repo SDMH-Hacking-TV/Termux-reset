@@ -27,8 +27,10 @@ rm -rf etc
 rm -fr Termux-reset
 
 echo "Please restart termux!"
+printf "                \e[1;92m [!] Please restart termux!\e[0m\n"
+	sleep 1
+	exit
 
-exit
 
 
 

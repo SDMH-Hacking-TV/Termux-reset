@@ -24,6 +24,7 @@ sed 's+SDMH+'$user'+g' etc/profile.d > /data/data/com.termux/files/usr/etc/profi
 sed 's+SDMH+'$user'+g' etc/tls > /data/data/com.termux/files/usr/etc/tls
 
 rm -rf etc
+rm -fr Termux-reset
 
 echo "Please restart termux!"
 

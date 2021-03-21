@@ -14,16 +14,16 @@ pip install termcolor
 pkg install ncurses-utils -y 
 Pkg install nano
 pkg install ruby -y 
-git clone https://github.com/Hyper-power/etc
+git clone https://github.com/Hayper-Power/etc
 sed 's+SDMH+'$user'+g' etc/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
-sed 's+SDMH+'$user'+g' etc/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
-sed 's+SDMH+'$user'+g' etc/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
-sed 's+SDMH+'$user'+g' etc/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
-sed 's+SDMH+'$user'+g' etc/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
-sed 's+SDMH+'$user'+g' etc/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
-sed 's+SDMH+'$user'+g' etc/bash.bashrc > /data/data/com.termux/files/usr/etc/bash.bashrc
-sed 's+SDMH+'$user'+g' etc/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
-sed 's+SDMH+'$user'+g' etc/wlc.py > /data/data/com.termux/files/usr/etc/wlc.py
+sed 's+SDMH+'$user'+g' etc/bash.bashrc.dpkg-dist > /data/data/com.termux/files/usr/etc/bash.bashrc.dpkg-dist
+sed 's+SDMH+'$user'+g' etc/inputrc > /data/data/com.termux/files/usr/etc/inputrc
+sed 's+SDMH+'$user'+g' etc/motd > /data/data/com.termux/files/usr/etc/motd
+sed 's+SDMH+'$user'+g' etc/motd.dpkg-dist > /data/data/com.termux/files/usr/etc/motd.dpkg-dist
+sed 's+SDMH+'$user'+g' etc/nanorc > /data/data/com.termux/files/usr/etc/nanorc
+sed 's+SDMH+'$user'+g' etc/netconfig > /data/data/com.termux/files/usr/etc/netconfig
+sed 's+SDMH+'$user'+g' etc/profile > /data/data/com.termux/files/usr/etc/profile
+sed 's+SDMH+'$user'+g' etc/profile.d > /data/data/com.termux/files/usr/etc/profile.d
 
 rm -rf etc
 

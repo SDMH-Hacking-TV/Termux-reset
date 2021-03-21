@@ -29,3 +29,10 @@ sed 's+SDMH+'$user'+g' etc/tls > /data/data/com.termux/files/usr/etc/tls
 
 rm -rf etc
 
+echo "Please restart termux!"
+
+exit
+
+
+
+
